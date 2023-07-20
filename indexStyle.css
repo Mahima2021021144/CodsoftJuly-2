@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'Montserrat' , sans-serif;
+
+}
+
+:root{
+    --primary-color : #fff;
+    --primary-shade : #f7f5f2;
+    --secondary-color: #000;
+    --red-color : #d40700;
+    --red-shade :#b20600;
+    --accent-color : #ffee63;
+}
+
+ul li{
+    list-style : none;
+}
+a{
+    text-decoration: none;
+}
+/* header section */
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgda(2,0,36,1) 0%, rgda(50,50,51,1) 35%,rgda(0,212,255,1)100%);
+    background: linear-gradient(to right,#040404, #242424, #656565);
+    color:var(--primary-color);
+}
+
+.nav-bar{
+    padding: 30px 0;
+}
+
+.size{
+    font-size: 30px;
+}
+.size1{
+    font-size: 50px;
+}
+.size2{
+    font-size: 20px;
+}
+ul li a{
+    margin : 0 10px;
+    padding: 0 5px;
+    color: var(--accent-color);
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li a::before{
+    content: '';
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition:0.6s ease;
+}
+ul li a:hover:before{
+    width:100%;
+}
+.content{
+    height: 90vh;
+}
+.content .right img{
+    width:60%;
+}
+.content .left i{
+    width: 8%;
+    color: antiquewhite;
+}
+.about-me{
+    min-height: 100vh;
+    background-color: #242424;
+    color: var(--primary-color);
+}
+.about-me hr{
+    border: 2px solid red;
+    margin-bottom: 2rem;
+}
+.about-content img{
+    width: 60%;
+}
+
+.mySkill{
+    background-color: #242424;
+    color: var(--primary-color);
+    width: 101.3%;
+    height: 650px;
+    margin-top: -23px;
+    margin-left: -10px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.skill1{
+    width: 25%;
+    height: 30%;
+    float: left;
+    border-collapse: collapse;
+}
+.mys1{
+    background-color: white;
+    background-color: rgba(246, 246, 246, 0.25);
+    border:2px solid white;
+    color: black;
+    width:60%;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 50px; 
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+    transition: all .5s;
+
+
+}
+.imageJava{
+    padding-top: 125px;
+    height: 130px;
+    width: 130px;
+}
+.mys1:hover{
+    
+    background-color: #2c7da0;
+    width:260px;
+    height: 375px;
+    margin-left:60px ;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+.skill2{
+    width: 25%;
+    height: fit-content;
+    float: left;
+    border-collapse: collapse;
+   
+}
+.mys2{
+    background-color: white;
+    background-color: rgba(246, 246, 246, 0.25);
+    border:2px solid white;
+    color: black;
+    width:60%;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 50px; 
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+    transition: all .5s;
+
+
+}
+.mys2:hover{
+    background-color: #2a6f97;
+    width:260px;
+    height: 375px;
+    margin-left:60px ;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.imagehtml{
+    padding-top: 120px;
+    height: 130px;
+    width: 130px;
+
+}
+.skill3{
+    width: 25%;
+    height: fit-content;
+    float: right;
+    border-collapse: collapse;
+}
+.mys3{
+    background-color: white;
+    background-color: rgba(246, 246, 246, 0.25);
+    border:2px solid white;
+    color: black;
+    width:60%;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 50px; 
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+    transition: all .5s;
+}
+.mys3:hover{
+    background-color: #014f86;
+    width:260px;
+    height: 375px;
+    margin-left:60px ;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+.imageC{
+    padding-top: 120px;
+    height: 130px;
+    width: 130px;
+}
+.skill4{
+    width: 25%;
+    height: fit-content;
+    float: right;
+    border-collapse: collapse;
+}
+.mys4{
+    background-color: white;
+    background-color: rgba(246, 246, 246, 0.25);
+    border:2px solid white;
+    color: black;
+    width:60%;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 50px; 
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: x-large;
+    transition: all .5s;
+}
+.mys4:hover{
+    background-color: #01497c;
+    width:260px;
+    height: 375px;
+    margin-left:60px ;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: all .5s;
+    
+}
+.imageCp{
+    padding-top: 120px;
+    height: 130px;
+    width: 130px;
+}
+.project{
+    min-height: 60vh;
+    background-color: #242424;
+    color: var(--primary-color);
+}
+.project hr{
+    border:2px solid red ;
+    margin-bottom: 2rem ;
+}
+.project-content img{
+    width: 65%;
+}
+.project2{
+    min-height: 50vh;
+    background-color: #242424;
+    color: var(--primary-color);
+}
+.project2 hr{
+    border:2px solid red ;
+    margin-bottom: 2rem ;
+}
+.project2-content img{
+    width: 80%;
+}
+.project3{
+    min-height: 50vh;
+    background-color: #242424;
+    color: var(--primary-color);
+}
+.project3 hr{
+    border:2px solid red ;
+    margin-bottom: 2rem ;
+}
+.project3-content img{
+    width: 60%;
+}
+.contact-sec{
+    background-color: #656565;
+    height: 50vh;
+    padding: 35px 0;
+}
